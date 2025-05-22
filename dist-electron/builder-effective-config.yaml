@@ -1,0 +1,20 @@
+directories:
+  output: dist-electron
+  buildResources: build
+appId: com.yourcompany.rv-electron
+productName: rv-electron
+files:
+  - filter:
+      - dist/**/*
+      - electron/**/*
+extraResources:
+  - from: public
+    to: public
+win:
+  target: nsis
+  extraFiles:
+    - from: assets
+      to: resources
+      filter:
+        - '**/*'
+electronVersion: 35.2.1
