@@ -23,7 +23,7 @@ const Text = () => {
             </p>
           </div>
 
-          {/* Card 2 */}
+          
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
             <h3 className="text-xl font-semibold text-purple-600 mb-4">Outils de mariage en ligne</h3>
             <p className="text-gray-700">
@@ -31,7 +31,7 @@ const Text = () => {
             </p>
           </div>
 
-          {/* Card 3 */}
+          
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
             <h3 className="text-xl font-semibold text-purple-600 mb-4">Stocké en toute sécurité</h3>
             <p className="text-gray-700">
